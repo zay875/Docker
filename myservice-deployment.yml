@@ -13,7 +13,7 @@ spec:
         app: myservice
     spec:
       containers:
-        - image: zin0096/exo2:01
+        - image: zin0096/myservice:01
           imagePullPolicy: IfNotPresent
           name: myservice
       restartPolicy: Always
